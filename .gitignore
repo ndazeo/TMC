@@ -1,0 +1,8 @@
+# Test files
+tests\**
+
+#Binaries
+*.o
+*.oct
+
+
