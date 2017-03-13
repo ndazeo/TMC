@@ -8,5 +8,8 @@
 
 ## Ejecutar pelota
 ```bash
->> pelota(@sin) # Ejecutamos el programa pelota con la función seno
+>> function y = f(t) # Creamos una función para la posición y de la pelota
+  y = t - floor(t)
+endfunction
+>> pelota(@f) # Ejecutamos el programa pelota con la función creada
 ```
